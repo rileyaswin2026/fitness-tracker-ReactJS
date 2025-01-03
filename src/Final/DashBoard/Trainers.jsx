@@ -7,13 +7,13 @@ const Trainers = ({ image, name, title, badgeCount, starCount, profilePicture })
         <img
           src={image}
           className="card-img-top"
-          alt={`${name} banner`}
+          alt={${name} banner}
           style={{ height: "150px", objectFit: "cover", position:'relative',borderRadius:'5px', boxShadow:'2px 2px 2px solid black'}}
         />
         <div className="card-body text-center">
           <img
             src={profilePicture}
-            alt={`${name} profile`}
+            alt={${name} profile}
             className="rounded-circle "
             style={{ width: "60px", height: "60px", objectFit: "cover", border: "2px solid #ddd",position:'absolute', top:'120px', left:'30px' }}
           />
