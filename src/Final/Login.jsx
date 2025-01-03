@@ -32,9 +32,9 @@ const LoginForm = ({ onSwitchToRegister }) => {
 
   const navigate = useNavigate();
 
-  const handleLogin = () => {
-    navigate("/Dashboard");
-  };
+    const handleLogin = () => {
+      navigate("/Dashboard");
+    };
 
   return (
     <div className="background">
