@@ -53,12 +53,13 @@ body{
   button{
     background-color: rgb(143, 224, 22);
     color: whitesmoke;
-    padding: 20px;
-    margin-right: 20px;
+    
+    
+    
 
   }
   button:hover{
     color: blue;
     text-decoration: underline;
-    background-color: rgb(123, 234, 115);
+    background-color: rgb(206, 211, 54);
   }
